@@ -1,0 +1,24 @@
+
+name: zip-lightning
+version: "0.1"
+about: Cli for packing zip-bomb
+subcommands:
+    - pack:
+        about: "pack zip bomb"
+        version: "0.1"
+        args:
+            - rounds:
+                short: "r"
+                long: "rounds"
+                help: "archive rounds"
+                takes_value: true
+            - size:
+                short: "s"
+                long: "size"
+                help: "file size in bytes"
+                takes_value: true
+            - name:
+                short: "n"
+                long: "filename"
+                help: "name output file"
+                takes_value: true

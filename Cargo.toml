@@ -1,0 +1,9 @@
+[package]
+name = "zip-lightning"
+version = "0.1.0"
+authors = ["Ilya fanyShu <ilyashvy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+zip = "0.5.2"
+clap = { version = "2.33.0", features = ["yaml"] }
