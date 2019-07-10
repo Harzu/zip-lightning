@@ -4,7 +4,7 @@ Simple implementation zip bomb algorithm
 
 ### Install
 ```shell
-git clone 
+git clone git@github.com:Harzu/zip-lightning.git
 cd zip-lightning
 make install
 ```
